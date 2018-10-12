@@ -1,0 +1,24 @@
+body {
+    background-color: #E61C81;
+    background-image: url(starry\ background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+#photo {
+    background-color: aqua;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    height: 500px;
+}
