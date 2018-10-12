@@ -8,17 +8,29 @@ body {
 }
 
 h1 {
+    background-color: #282828;
     color: #FFFFFF;
+    font-family: fahkwang;
     text-align: center;
     font-weight: bold;
+    height: 100px;
+    line-height: 200%;
+    margin: auto;
 }
 
 #photo {
     background-color: aqua;
     border: 2px solid white;
-    border-radius: 30px;
+    border-radius: 45%;
     margin: auto;
     padding: 10px;
-    width: 50%;
-    height: 500px;
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    font-family: fahkwang;
+}
+
+hr {
+    height: 5%;
+    width: 70%;
 }
