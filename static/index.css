@@ -1,0 +1,40 @@
+body {
+    background-color: #E61C81;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: #282828;
+    color: #FFFFFF;
+    font-family: fahkwang;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    line-height: 200%;
+    margin: auto;
+}
+
+.portrait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aqua;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: fahkwang;
+}
+
+hr {
+    height: 5%;
+    width: 70%;
+}
