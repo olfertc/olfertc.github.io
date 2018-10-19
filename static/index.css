@@ -1,19 +1,20 @@
 body {
-    background-color: #E61C81;
+    background-color: #523131ce;
     background-image: url(./background.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 h1 {
-    background-color: #282828;
+    background-color: #072931a2;
     color: #FFFFFF;
     font-family: fahkwang;
     text-align: center;
     font-weight: bold;
-    height: 100px;
+    height: 80px;
     line-height: 200%;
     margin: auto;
 }
