@@ -1,6 +1,6 @@
 body {
     background-color: #523131ce;
-    background-image: url(./background.jpg);
+    background-image: url(./background.jpeg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -9,7 +9,6 @@ body {
 }
 
 h1 {
-    background-color: #072931a2;
     color: #FFFFFF;
     font-family: fahkwang;
     text-align: center;
@@ -19,23 +18,39 @@ h1 {
     margin: auto;
 }
 
+h2 {
+    color: #FFFFFF;
+    font-family: fahkwang;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    line-height: 100%;
+    margin: auto; 
+}
+
 .portrait {
     display: flex;
     align-items: center;
     justify-content: center;
     
-    background-color: aqua;
-    border: 2px solid white;
-    border-radius: 50%;
+    border: 3px solid white;
     margin: auto;
-    padding: 10px;
+    padding: 3px;
     width: 150px;
-    height: 150px;
-    text-align: center;
-    font-family: fahkwang;
 }
 
-hr {
-    height: 5%;
-    width: 70%;
+.portrait img {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+
+#links {
+    text-align: center;
+}
+.images {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;    
 }
