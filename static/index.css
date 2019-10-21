@@ -1,3 +1,9 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body {
     background-color: #523131ce;
     background-image: url(./background.jpeg);
@@ -33,13 +39,15 @@ h2 {
     align-items: center;
     justify-content: center;
     border: 3px solid white;
-    margin: auto;
-    width: 150px;
+    border-radius: 50%;
+    margin: 100px;
+    width: 225px;
 }
 
 .portrait img {
     display: inline-block;
-    width: 150px;
+    border-radius: 50%;
+    width: 225px;
     height: auto;
 }
 
@@ -48,9 +56,9 @@ h2 {
     text-decoration: none;
 }
 
-.images {
+.link_images {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 1px;    
+    padding: 1px;
 }
