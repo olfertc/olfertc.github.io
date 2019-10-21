@@ -32,10 +32,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     border: 3px solid white;
     margin: auto;
-    padding: 3px;
     width: 150px;
 }
 
@@ -47,7 +45,9 @@ h2 {
 
 #links {
     text-align: center;
+    text-decoration: none;
 }
+
 .images {
     display: inline-block;
     margin-left: auto;
