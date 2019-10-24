@@ -1,0 +1,48 @@
+.footer {
+  bottom: calc(10px + 2vmin);
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+    color: rgb(245, 52, 149);
+    font-family: fahkwang;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    line-height: 200%;
+    margin: auto;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: fahkwang;
+    text-align: center;
+    font-weight: bold;
+    height: 80px;
+    line-height: 100%;
+    margin: auto; 
+}
+
+.portrait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0px auto;
+    width: 300px;
+}
+
+a {
+text-decoration: none;
+}
+
+.icon {
+user-select: none;
+height: calc(25px + 2vmin);
+opacity: 0.65;
+transition: all 0.2s linear;
+padding-top: 250px;
+padding-right: 2px;
+}
