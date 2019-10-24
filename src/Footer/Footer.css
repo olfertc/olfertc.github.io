@@ -6,21 +6,20 @@
 
 h1 {
     color: rgb(245, 52, 149);
-    font-family: fahkwang;
     text-align: center;
-    font-weight: bold;
-    height: 80px;
-    line-height: 200%;
+    font-size: 50px;
+    font-weight: 900;
+    height: 100px;
+    line-height: 300%;
     margin: auto;
 }
 
 h2 {
     color: #FFFFFF;
-    font-family: fahkwang;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     height: 80px;
-    line-height: 100%;
+    line-height: 250%;
     margin: auto; 
 }
 
@@ -30,19 +29,19 @@ h2 {
     justify-content: center;
     border: 3px solid white;
     border-radius: 50%;
-    margin: 0px auto;
-    width: 300px;
+    margin: 100px auto;
+    width: 225px;
 }
 
 a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .icon {
-user-select: none;
-height: calc(25px + 2vmin);
-opacity: 0.65;
-transition: all 0.2s linear;
-padding-top: 250px;
-padding-right: 2px;
+    user-select: none;
+    height: calc(25px + 2vmin);
+    opacity: 0.65;
+    transition: all 0.2s linear;
+    padding-top: 100px;
+    padding-right: 2px;
 }
