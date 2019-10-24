@@ -1,12 +1,14 @@
 import React from 'react';
+import Heading from './Heading/Heading';
 import Footer from './Footer/Footer'
-import './App.css';
+import './App.scss';
 
 
 const App: React.FC = () => {
   return (
     <div className="profile">
-      <Footer></Footer>
+      <Heading />
+      <Footer />
     </div>
   );
 }
