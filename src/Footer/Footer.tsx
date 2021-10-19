@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <div className="footer">
       <h1>Cassandra Olfert</h1>
-      <h2>Third Year Computer Science Student</h2>
+      <h2>Fourth Year Computer Science Student at the University of Lethbridge</h2>
       <img src={Portrait} className="portrait" alt="Cassandra" />
       <a href="https://www.linkedin.com/in/cassandra-olfert-9b5745177" target="blank" rel="noopener noreferrer">
         <img src={linkedin} className="icon" alt="LinkedIn Icon"></img>
