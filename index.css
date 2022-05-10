@@ -7,33 +7,15 @@ body {
     margin: 0px;
     padding: 0px;
     background: rgb(165,202,218);
-    background: linear-gradient(10deg, rgb(221, 216, 221) 0%, rgba(255,253,253,1) 100%);
+    background: linear-gradient(10deg, rgb(243, 232, 244) 0%, rgba(255,253,253,1) 100%);
     color: rgb(86, 84, 84);
-    font-size: 18px;
+    font-size: 21px;
     font-family: Oxygen, Ubuntu, sans-serif;
 }
 
 h1 span {
     color: #e25098;
 }
-
-main {
-    /* display: flex;
-    overflow: hidden;
-    margin: 0px 80px; */
-}
-
-/* .nav {
-    width: 100%;
-    padding: 50px;
-}
-
-.nav ul li {
-    display: inline;
-    list-style-type: none;
-    float: right;
-    padding-left: 25px;
-} */
 
 .container {
     background-color: white;
@@ -61,7 +43,9 @@ main {
 }
 
 .description {
-    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icons {
@@ -74,24 +58,34 @@ main {
 }
 
 .icons img {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 2rem;
     padding: 2px;
+    opacity: 0.60;
 }
 
 @media (max-width: 1024px) {
     .container {
-      display: flex;
-      flex-direction: column;
-      margin: 0.5rem;
-      width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        width: 80%;
     }
+
+    .portrait {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
     .description {
-        padding-left: 20px;
-        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .icons {
-        width: 100%;
-        padding-left: 240px;
+        display: flex;
+        justify-content: center;
+        width: 100%
     }
   }
