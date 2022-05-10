@@ -9,7 +9,7 @@ body {
     background: rgb(165,202,218);
     background: linear-gradient(10deg, rgb(243, 232, 244) 0%, rgba(255,253,253,1) 100%);
     color: rgb(86, 84, 84);
-    font-size: 21px;
+    font-size: 20px;
     font-family: Oxygen, Ubuntu, sans-serif;
 }
 
@@ -36,8 +36,8 @@ h1 span {
 
 .portrait img {
     border-radius: 15px;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 12px;
 }
@@ -49,7 +49,10 @@ h1 span {
 }
 
 .icons {
-    padding: 20px;
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    margin: 20px;
     width: 5%;
 }
 
@@ -57,25 +60,26 @@ h1 span {
     text-decoration: none;
 }
 
+.icons a:hover {
+    opacity: 0.6;
+}
+
 .icons img {
-    height: 2rem;
-    width: 2rem;
-    padding: 2px;
-    opacity: 0.60;
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0.4;
 }
 
 @media (max-width: 1024px) {
     .container {
         display: flex;
         flex-direction: column;
-        margin: 0.5rem;
-        width: 80%;
     }
 
     .portrait {
         display: flex;
         justify-content: center;
-        width: 80%;
+        padding: 0.5rem;
     }
 
     .description {
@@ -86,6 +90,7 @@ h1 span {
     .icons {
         display: flex;
         justify-content: center;
+        align-self: center;
         width: 100%
     }
   }
